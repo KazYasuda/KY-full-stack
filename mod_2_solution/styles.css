@@ -26,12 +26,14 @@ div.menu-box {
     margin-left:0.5em;
     margin-right: 0.5em;
     font-size: 1.25em;
+    border-color: black;
+    border-style: solid; 
 }
 
 p {
     margin-block-start: 0em;
     margin-left:1em;
-    margin-right:1em; 
+    margin-right:1em;
 }
 
 p.narrative {
@@ -44,8 +46,10 @@ p.category {
     text-align: center;
     font-weight: bold;
     width: 30%;
-    border-color: black;
-    border-style: solid;
+    border-left-color: black;
+    border-bottom-color: black;
+    border-left-style: solid;
+    border-bottom-style: solid;
     margin-bottom: 0px;
     margin-left:auto; 
     margin-right:0em; 
