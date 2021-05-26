@@ -15,7 +15,6 @@ body {
 }
 
 div.col-lg-4, div.col-md-6 {
-    /* background-color: grey; */
     margin-left:0em;
     margin-right:0em;
     padding: 0em;
@@ -40,7 +39,7 @@ p {
 p.narrative {
     margin-block-start: 0.2em;
     padding:0.5em;
-    /* margin-block-end: 0.75em; */
+    margin-block-end: 0.75em;
 }
 
 p.category {
@@ -82,6 +81,11 @@ p.category#sushi {
     .col-md-6 {
         float: left;
         width: 50%;
+        padding: 1px;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
         padding: 1px;
     }
 }
