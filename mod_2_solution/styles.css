@@ -25,6 +25,7 @@ div.menu-box {
     background-color: grey;
     margin-left:0.5em;
     margin-right: 0.5em;
+    margin-bottom: 0.75em;
     font-size: 1.25em;
     border-color: black;
     border-style: solid; 
@@ -39,7 +40,7 @@ p {
 p.narrative {
     margin-block-start: 0.2em;
     padding:0.5em;
-    margin-block-end: 0.75em;
+    /* margin-block-end: 0.75em; */
 }
 
 p.category {
